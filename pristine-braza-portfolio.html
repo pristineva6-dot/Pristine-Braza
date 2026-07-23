@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pristine D. Braza — General Virtual Assistant | Administrative &amp; E-commerce Support</title>
+<meta name="description" content="Pristine D. Braza is a General Virtual Assistant specializing in Administrative and E-commerce Support, with 7 years of government experience and hands-on Etsy & TikTok Shop expertise. Available for freelance and remote opportunities." />
+<meta name="keywords" content="Executive Assistant Philippines, Virtual Assistant Philippines, Administrative Professional, Executive Support Specialist, Project Coordinator, Operations Assistant, Environment Management Specialist, Product Listing Specialist, Etsy Virtual Assistant, TikTok Shop VA, Shopify Product Lister, SEO Product Listing, Canva Designer, Remote Executive Assistant, E-commerce Virtual Assistant" />
+<meta name="author" content="Pristine D. Braza" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Pristine D. Braza — General Virtual Assistant | Administrative & E-commerce Support" />
+<meta property="og:description" content="Executive support, project coordination, and e-commerce virtual assistance — 7 years of government service plus hands-on Etsy & TikTok Shop expertise." />
+<meta property="og:locale" content="en_PH" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   0. TOKENS
+   ============================================================ */
+:root{
+  --bg:#F7F5EF;
+  --bg-alt:#EEEAE0;
+  --bg-deep:#E7E2D5;
+  --surface:rgba(255,255,255,.58);
+  --surface-solid:#FFFFFF;
+  --surface-border:rgba(255,255,255,.5);
+  --ink:#1F2A1E;
+  --ink-soft:#51594C;
+  --ink-faint:#8A9184;
+  --moss:#42603A;
+  --moss-dark:#2E4527;
+  --moss-light:#6E8A62;
+  --fern:#8CA37C;
+  --clay:#B08A63;
+  --clay-soft:#D8C3A5;
+  --gold:#B9922E;
+  --line:rgba(31,42,30,.10);
+  --shadow-sm:0 2px 10px rgba(31,42,30,.06);
+  --shadow-md:0 12px 32px rgba(31,42,30,.10);
+  --shadow-lg:0 24px 60px rgba(31,42,30,.16);
+  --radius-s:10px;
+  --radius-m:18px;
+  --radius-l:28px;
+  --font-display:'Poppins',sans-serif;
+  --font-body:'Inter',sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+  color-scheme: light;
+}
+[data-theme="dark"]{
+  --bg:#131810;
+  --bg-alt:#1A2016;
+  --bg-deep:#0E120C;
+  --surface:rgba(24,31,20,.55);
+  --surface-solid:#1B2217;
+  --surface-border:rgba(255,255,255,.08);
+  --ink:#ECEAE1;
+  --ink-soft:#B7BEB0;
+  --ink-faint:#7C8577;
+  --moss:#8FAE7E;
+  --moss-dark:#6E8A62;
+  --moss-light:#A9C298;
+  --clay:#D3AE84;
+  --clay-soft:#4A4030;
+  --gold:#E3C25E;
+  --line:rgba(255,255,255,.09);
+  --shadow-sm:0 2px 10px rgba(0,0,0,.25);
+  --shadow-md:0 12px 32px rgba(0,0,0,.35);
+  --shadow-lg:0 24px 70px rgba(0,0,0,.5);
+  color-scheme: dark;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important;}
+}
+body{
+  font-family:var(--font-body);
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  transition:background .4s var(--ease), color .4s var(--ease);
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.15;letter-spacing:-.01em;}
+:focus-visible{outline:2.5px solid var(--gold);outline-offset:3px;border-radius:4px;}
+.container{max-width:1180px;margin:0 auto;padding:0 24px;}
+section{position:relative;padding:120px 0;}
+@media (max-width:768px){section{padding:80px 0;}}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--font-body);font-weight:600;font-size:.78rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--moss);
+  margin-bottom:14px;
+}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--gold);border-radius:2px;}
+.section-head{max-width:640px;margin-bottom:56px;}
+.section-head h2{font-size:clamp(1.9rem,3.4vw,2.7rem);color:var(--ink);}
+.section-head p{margin-top:14px;color:var(--ink-soft);font-size:1.05rem;}
+
+/* ============================================================
+   1. GLASSMORPHISM / SURFACES
+   ============================================================ */
+.glass{
+  background:var(--surface);
+  border:1px solid var(--surface-border);
+  backdrop-filter:blur(18px) saturate(140%);
+  -webkit-backdrop-filter:blur(18px) saturate(140%);
+  box-shadow:var(--shadow-md);
+}
+.card{
+  border-radius:var(--radius-m);
+  padding:32px;
+  transition:transform .45s var(--ease), box-shadow .45s var(--ease), border-color .45s var(--ease);
+}
+.card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:var(--moss-light);}
+
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:15px 28px;border-radius:100px;
+  font-weight:600;font-size:.95rem;letter-spacing:.01em;
+  transition:transform .35s var(--ease), box-shadow .35s var(--ease), background .35s var(--ease), color .35s var(--ease);
+  white-space:nowrap;
+}
+.btn svg{width:17px;height:17px;flex-shrink:0;}
+.btn-primary{background:var(--moss);color:#fff;box-shadow:0 10px 26px -8px rgba(66,96,58,.55);}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 34px -8px rgba(66,96,58,.6);background:var(--moss-dark);}
+.btn-ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink);}
+.btn-ghost:hover{border-color:var(--moss);color:var(--moss);transform:translateY(-3px);}
+.btn-outline-light{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.5);color:var(--ink);backdrop-filter:blur(6px);}
+.btn-outline-light:hover{background:rgba(255,255,255,.18);transform:translateY(-3px);}
+.btn-sm{padding:9px 18px;font-size:.82rem;}
+
+/* ============================================================
+   2. SCROLL PROGRESS + NAV
+   ============================================================ */
+#scroll-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--moss),var(--gold));width:0%;z-index:1000;transition:width .1s linear;}
+
+header{
+  position:fixed;top:0;left:0;right:0;z-index:900;
+  padding:18px 0;transition:padding .35s var(--ease), background .35s var(--ease), box-shadow .35s var(--ease);
+}
+header.scrolled{padding:11px 0;background:var(--surface);backdrop-filter:blur(16px);box-shadow:var(--shadow-sm);border-bottom:1px solid var(--surface-border);}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:1.15rem;}
+.logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:linear-gradient(135deg,var(--moss),var(--moss-dark));
+  color:#fff;display:flex;align-items:center;justify-content:center;
+  font-size:.92rem;letter-spacing:.03em;box-shadow:0 6px 16px -4px rgba(66,96,58,.55);
+}
+.nav-links{display:flex;align-items:center;gap:2px;}
+.nav-links a{
+  padding:9px 15px;border-radius:100px;font-size:.9rem;font-weight:500;color:var(--ink-soft);
+  transition:background .3s var(--ease), color .3s var(--ease);
+}
+.nav-links a:hover{background:var(--bg-alt);color:var(--ink);}
+.nav-actions{display:flex;align-items:center;gap:10px;}
+.icon-btn{
+  width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:var(--bg-alt);color:var(--ink-soft);transition:all .3s var(--ease);flex-shrink:0;
+}
+.icon-btn:hover{background:var(--moss);color:#fff;transform:translateY(-2px);}
+.icon-btn svg{width:18px;height:18px;}
+#theme-toggle .sun{display:none;} [data-theme="dark"] #theme-toggle .sun{display:block;} [data-theme="dark"] #theme-toggle .moon{display:none;}
+.hamburger{display:none;}
+@media (max-width:920px){
+  .nav-links{position:fixed;top:0;right:-100%;height:100vh;width:min(78vw,340px);
+    background:var(--surface-solid);flex-direction:column;align-items:flex-start;
+    padding:100px 30px 30px;gap:4px;transition:right .45s var(--ease);box-shadow:var(--shadow-lg);z-index:950;}
+  .nav-links.open{right:0;}
+  .nav-links a{width:100%;padding:14px 16px;font-size:1.02rem;}
+  .hamburger{display:flex;width:40px;height:40px;border-radius:50%;background:var(--bg-alt);align-items:center;justify-content:center;position:relative;z-index:960;}
+  .hamburger svg{width:19px;height:19px;}
+  .nav-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:940;}
+  .nav-overlay.open{display:block;}
+}
+
+/* ============================================================
+   3. HERO
+   ============================================================ */
+.hero{
+  min-height:100vh;display:flex;align-items:center;position:relative;
+  padding-top:120px;padding-bottom:80px;overflow:hidden;
+  background:
+    radial-gradient(ellipse 80% 60% at 85% 8%, color-mix(in srgb, var(--fern) 22%, transparent), transparent 60%),
+    radial-gradient(ellipse 70% 60% at 10% 95%, color-mix(in srgb, var(--clay) 18%, transparent), transparent 60%),
+    var(--bg);
+}
+.topo-bg{position:absolute;inset:0;z-index:0;opacity:.5;pointer-events:none;}
+.topo-bg svg{width:100%;height:100%;}
+.topo-bg path{fill:none;stroke:var(--moss);stroke-width:1;opacity:.16;}
+[data-theme="dark"] .topo-bg path{opacity:.22;}
+.topo-bg .ring{transform-origin:78% 30%;animation:driftRing 34s linear infinite;}
+@keyframes driftRing{from{transform:rotate(0deg) scale(1);}to{transform:rotate(360deg) scale(1);}}
+
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center;}
+@media (max-width:960px){.hero-grid{grid-template-columns:1fr;gap:56px;text-align:center;}}
+
+.hero-eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 16px 8px 8px;border-radius:100px;
+  background:var(--surface);border:1px solid var(--surface-border);backdrop-filter:blur(10px);
+  font-size:.8rem;font-weight:600;color:var(--moss-dark);letter-spacing:.02em;margin-bottom:26px;
+  animation:fadeUp .8s var(--ease) both;}
+[data-theme="dark"] .hero-eyebrow{color:var(--moss-light);}
+.hero-eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px color-mix(in srgb, var(--gold) 25%, transparent);}
+@media (max-width:960px){.hero-eyebrow{margin-inline:auto;}}
+
+.hero h1{font-size:clamp(2.5rem,5.2vw,4.1rem);color:var(--ink);animation:fadeUp .8s .08s var(--ease) both;}
+.hero h1 .accent{color:var(--moss);position:relative;white-space:nowrap;}
+.hero .headline{
+  margin-top:18px;font-family:var(--font-display);font-weight:600;font-size:clamp(1.05rem,1.7vw,1.32rem);
+  color:var(--moss-dark);animation:fadeUp .8s .16s var(--ease) both;
+}
+[data-theme="dark"] .hero .headline{color:var(--moss-light);}
+.hero .summary{margin-top:22px;max-width:600px;color:var(--ink-soft);font-size:1.05rem;animation:fadeUp .8s .24s var(--ease) both;}
+@media (max-width:960px){.hero .summary{margin-inline:auto;}}
+.hero-btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px;animation:fadeUp .8s .32s var(--ease) both;}
+@media (max-width:960px){.hero-btns{justify-content:center;}}
+.hero-social{display:flex;gap:12px;margin-top:40px;animation:fadeUp .8s .4s var(--ease) both;}
+@media (max-width:960px){.hero-social{justify-content:center;}}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+
+/* Hero visual */
+.hero-visual{position:relative;display:flex;align-items:center;justify-content:center;min-height:420px;}
+.photo-wrap{position:relative;width:290px;height:290px;animation:fadeUp .9s .2s var(--ease) both;}
+.photo-ring{
+  position:absolute;inset:-16px;border-radius:50%;
+  border:2px dashed color-mix(in srgb, var(--moss) 45%, transparent);
+  animation:spin 40s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+.photo-frame{
+  width:100%;height:100%;border-radius:46% 54% 58% 42% / 48% 44% 56% 52%;
+  overflow:hidden;position:relative;box-shadow:var(--shadow-lg);
+  border:5px solid var(--surface-solid);
+  background:linear-gradient(155deg,var(--moss) 0%, var(--moss-dark) 55%, var(--clay) 130%);
+  display:flex;align-items:center;justify-content:center;
+}
+.photo-frame .monogram{font-family:var(--font-display);font-weight:700;font-size:5.2rem;color:rgba(255,255,255,.92);letter-spacing:-.02em;}
+.photo-frame .photo-note{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:.66rem;color:rgba(255,255,255,.75);letter-spacing:.08em;text-transform:uppercase;}
+
+.float-card{
+  position:absolute;padding:14px 18px;border-radius:var(--radius-s);display:flex;align-items:center;gap:12px;
+  animation:floaty 5.5s ease-in-out infinite, fadeUp .9s var(--ease) both;
+}
+.float-card .fc-icon{width:38px;height:38px;border-radius:10px;background:var(--moss);color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.float-card .fc-icon svg{width:19px;height:19px;}
+.float-card b{display:block;font-family:var(--font-display);font-size:1.05rem;color:var(--ink);}
+.float-card span{font-size:.74rem;color:var(--ink-soft);white-space:nowrap;}
+.fc-1{top:-4%;left:-14%;animation-delay:0s, .55s;}
+.fc-2{bottom:2%;right:-16%;animation-delay:1.1s, .7s;}
+.fc-3{bottom:26%;left:-20%;animation-delay:2.1s, .85s;}
+@keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-12px);}}
+@media (max-width:960px){.float-card{display:none;}}
+@media (max-width:600px){.photo-wrap{width:230px;height:230px;}}
+
+.scroll-cue{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--ink-faint);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;z-index:2;}
+.scroll-cue .line{width:1px;height:34px;background:linear-gradient(var(--moss),transparent);animation:scrollLine 2s ease-in-out infinite;}
+@keyframes scrollLine{0%{transform:scaleY(0);transform-origin:top;}50%{transform:scaleY(1);transform-origin:top;}51%{transform-origin:bottom;}100%{transform:scaleY(0);transform-origin:bottom;}}
+@media (max-width:760px){.scroll-cue{display:none;}}
+
+/* ============================================================
+   4. REVEAL ANIMATION UTILITY
+   ============================================================ */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .8s var(--ease), transform .8s var(--ease);}
+.reveal.in{opacity:1;transform:translateY(0);}
+.stagger > *{transition-delay:calc(var(--i,0) * 90ms);}
+
+
+/* ============================================================
+   5. ABOUT
+   ============================================================ */
+.about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:70px;align-items:start;}
+@media (max-width:880px){.about-grid{grid-template-columns:1fr;gap:44px;}}
+.about-copy p{color:var(--ink-soft);margin-bottom:16px;font-size:1.02rem;}
+.about-copy p b{color:var(--ink);font-weight:600;}
+.chip-cloud{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;}
+.chip{
+  padding:9px 16px;border-radius:100px;font-size:.83rem;font-weight:500;
+  background:var(--bg-alt);border:1px solid var(--line);color:var(--ink-soft);
+  transition:all .3s var(--ease);
+}
+.chip:hover{background:var(--moss);color:#fff;border-color:var(--moss);transform:translateY(-2px);}
+
+.about-panel{border-radius:var(--radius-l);padding:36px;position:relative;overflow:hidden;}
+.about-panel::before{content:"";position:absolute;top:-40%;right:-30%;width:70%;height:70%;
+  background:radial-gradient(circle, color-mix(in srgb, var(--fern) 30%, transparent), transparent 70%);pointer-events:none;}
+.love-list{display:grid;grid-template-columns:1fr 1fr;gap:16px;position:relative;z-index:1;}
+@media (max-width:520px){.love-list{grid-template-columns:1fr;}}
+.love-list li{display:flex;gap:10px;align-items:flex-start;font-size:.92rem;color:var(--ink-soft);}
+.love-list svg{width:18px;height:18px;color:var(--moss);flex-shrink:0;margin-top:2px;}
+.love-list b{color:var(--ink);}
+.about-panel h3{font-size:1.15rem;margin-bottom:22px;color:var(--ink);}
+
+.counters{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:64px;}
+@media (max-width:760px){.counters{grid-template-columns:repeat(2,1fr);}}
+.counter-card{text-align:center;padding:30px 14px;border-radius:var(--radius-m);}
+.counter-card .num{font-family:var(--font-display);font-size:2.5rem;font-weight:700;color:var(--moss);display:flex;justify-content:center;align-items:baseline;gap:2px;}
+.counter-card .lbl{margin-top:6px;font-size:.82rem;color:var(--ink-soft);}
+
+/* ============================================================
+   6. EXPERIENCE TIMELINE
+   ============================================================ */
+.timeline{position:relative;margin-top:10px;}
+.timeline::before{content:"";position:absolute;left:29px;top:8px;bottom:8px;width:2px;
+  background:linear-gradient(var(--moss), var(--clay-soft));}
+@media (max-width:640px){.timeline::before{left:19px;}}
+.tl-item{position:relative;padding-left:80px;margin-bottom:52px;}
+@media (max-width:640px){.tl-item{padding-left:54px;}}
+.tl-item:last-child{margin-bottom:0;}
+.tl-dot{position:absolute;left:15px;top:4px;width:30px;height:30px;border-radius:50%;
+  background:var(--moss);color:#fff;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 0 0 6px var(--bg);z-index:1;}
+.tl-dot svg{width:15px;height:15px;}
+@media (max-width:640px){.tl-dot{left:5px;width:24px;height:24px;}.tl-dot svg{width:12px;height:12px;}}
+.tl-card{border-radius:var(--radius-m);padding:30px 32px;}
+.tl-meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:baseline;margin-bottom:6px;}
+.tl-card h3{font-size:1.25rem;color:var(--ink);}
+.tl-date{font-size:.8rem;font-weight:600;color:#fff;background:var(--clay);padding:5px 13px;border-radius:100px;white-space:nowrap;}
+.tl-org{color:var(--moss-dark);font-weight:600;font-size:.94rem;margin-bottom:16px;}
+[data-theme="dark"] .tl-org{color:var(--moss-light);}
+.tl-tasks{display:grid;grid-template-columns:1fr 1fr;gap:8px 22px;}
+@media (max-width:640px){.tl-tasks{grid-template-columns:1fr;}}
+.tl-tasks li{display:flex;gap:9px;font-size:.9rem;color:var(--ink-soft);align-items:flex-start;}
+.tl-tasks li svg{width:14px;height:14px;color:var(--moss);flex-shrink:0;margin-top:4px;}
+
+/* ============================================================
+   7. PROJECTS
+   ============================================================ */
+.featured-project{border-radius:var(--radius-l);overflow:hidden;display:grid;grid-template-columns:1fr 1fr;margin-bottom:32px;}
+@media (max-width:860px){.featured-project{grid-template-columns:1fr;}}
+.fp-visual{
+  position:relative;min-height:320px;
+  background:
+    linear-gradient(155deg, var(--moss) 0%, var(--moss-dark) 60%, var(--clay) 140%);
+  display:flex;align-items:center;justify-content:center;padding:30px;overflow:hidden;
+}
+.fp-visual .badge-float{position:absolute;background:rgba(255,255,255,.14);backdrop-filter:blur(8px);
+  border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:10px 14px;color:#fff;font-size:.78rem;font-weight:600;
+  display:flex;align-items:center;gap:8px;animation:floaty 6s ease-in-out infinite;}
+.fp-visual svg{width:26px;height:26px;}
+.fp-mockup{width:80%;max-width:280px;aspect-ratio:4/5;border-radius:16px;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(6px);position:relative;display:flex;align-items:center;justify-content:center;}
+.fp-mockup svg{width:64px;height:64px;color:rgba(255,255,255,.8);}
+.fp-content{padding:44px;display:flex;flex-direction:column;justify-content:center;}
+.fp-content .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+.fp-content h3{font-size:1.6rem;margin-bottom:14px;color:var(--ink);}
+.fp-content p{color:var(--ink-soft);margin-bottom:20px;}
+.fp-tasklist{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;margin-bottom:24px;}
+.fp-tasklist li{font-size:.86rem;color:var(--ink-soft);display:flex;gap:8px;align-items:flex-start;}
+.fp-tasklist li svg{width:13px;height:13px;color:var(--moss);margin-top:4px;flex-shrink:0;}
+.tech-tags{display:flex;flex-wrap:wrap;gap:8px;}
+.tech-tags span{font-size:.76rem;font-weight:600;padding:6px 13px;border-radius:100px;background:var(--bg-alt);color:var(--moss-dark);}
+[data-theme="dark"] .tech-tags span{color:var(--moss-light);}
+
+.showcase-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px;}
+@media (max-width:940px){.showcase-grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:520px){.showcase-grid{grid-template-columns:1fr;}}
+.showcase-card{border-radius:var(--radius-m);overflow:hidden;cursor:pointer;position:relative;}
+.sc-img{aspect-ratio:4/5;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.sc-img svg{width:44px;height:44px;color:rgba(255,255,255,.85);transition:transform .5s var(--ease);}
+.showcase-card:hover .sc-img svg{transform:scale(1.15) rotate(-6deg);}
+.sc-img .platform-badge{position:absolute;top:12px;left:12px;font-size:.68rem;font-weight:700;padding:5px 11px;border-radius:100px;background:rgba(255,255,255,.9);color:var(--moss-dark);letter-spacing:.02em;}
+.sc-img .zoom-hint{position:absolute;inset:0;background:rgba(20,27,18,.45);opacity:0;display:flex;align-items:center;justify-content:center;transition:opacity .35s var(--ease);}
+.sc-img .zoom-hint svg{width:30px;height:30px;color:#fff;transform:none;}
+.showcase-card:hover .zoom-hint{opacity:1;}
+.sc-body{padding:16px 4px 4px;}
+.sc-body .role{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--moss);margin-bottom:4px;}
+.sc-body h4{font-size:.98rem;color:var(--ink);margin-bottom:6px;}
+.sc-body .tools{font-size:.76rem;color:var(--ink-faint);}
+
+.mini-projects{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px;}
+@media (max-width:860px){.mini-projects{grid-template-columns:1fr;}}
+.mini-card h4{font-size:1.08rem;color:var(--ink);margin:14px 0 10px;display:flex;align-items:center;gap:10px;}
+.mini-card .mc-icon{width:44px;height:44px;border-radius:12px;background:var(--bg-alt);color:var(--moss);display:flex;align-items:center;justify-content:center;}
+.mini-card .mc-icon svg{width:22px;height:22px;}
+.mini-card p{font-size:.9rem;color:var(--ink-soft);}
+
+/* ============================================================
+   8. GALLERY + FILTERS + LIGHTBOX
+   ============================================================ */
+.filter-bar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:40px;}
+.filter-btn{padding:10px 20px;border-radius:100px;font-size:.85rem;font-weight:600;background:var(--bg-alt);color:var(--ink-soft);border:1px solid transparent;transition:all .3s var(--ease);}
+.filter-btn:hover{color:var(--ink);}
+.filter-btn.active{background:var(--moss);color:#fff;box-shadow:0 8px 20px -6px rgba(66,96,58,.5);}
+
+.masonry{columns:4 260px;column-gap:22px;}
+@media (max-width:640px){.masonry{columns:2 160px;column-gap:14px;}}
+.g-item{break-inside:avoid;margin-bottom:22px;border-radius:var(--radius-m);overflow:hidden;cursor:pointer;
+  transition:opacity .4s var(--ease), transform .4s var(--ease);position:relative;}
+.g-item.hidden{display:none;}
+.g-item .g-inner{position:relative;display:flex;align-items:center;justify-content:center;padding:34px 18px;text-align:center;}
+.g-item svg{width:34px;height:34px;color:rgba(255,255,255,.85);margin-bottom:10px;}
+.g-item h5{color:#fff;font-size:.86rem;font-weight:600;position:relative;z-index:1;}
+.g-item .g-cat{color:rgba(255,255,255,.75);font-size:.7rem;margin-top:4px;position:relative;z-index:1;}
+.g-item::after{content:"";position:absolute;inset:0;background:rgba(15,20,12,0);transition:background .35s var(--ease);}
+.g-item:hover::after{background:rgba(15,20,12,.18);}
+.g-item:hover{transform:translateY(-5px);}
+
+.lightbox{position:fixed;inset:0;z-index:1200;background:rgba(10,14,8,.88);display:none;align-items:center;justify-content:center;padding:30px;backdrop-filter:blur(6px);}
+.lightbox.open{display:flex;animation:fadeIn .3s var(--ease);}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+.lightbox-inner{max-width:520px;width:100%;border-radius:var(--radius-l);overflow:hidden;background:var(--surface-solid);animation:fadeUp .35s var(--ease);}
+.lightbox-visual{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;}
+.lightbox-visual svg{width:64px;height:64px;color:rgba(255,255,255,.9);}
+.lightbox-body{padding:26px 28px;}
+.lightbox-body h4{font-size:1.15rem;margin-bottom:6px;color:var(--ink);}
+.lightbox-body p{font-size:.88rem;color:var(--ink-soft);}
+.lightbox-close{position:absolute;top:24px;right:24px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;display:flex;align-items:center;justify-content:center;transition:background .3s;}
+.lightbox-close:hover{background:rgba(255,255,255,.25);}
+.lightbox-close svg{width:20px;height:20px;}
+
+/* ============================================================
+   9. SKILLS
+   ============================================================ */
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;}
+@media (max-width:860px){.skills-grid{grid-template-columns:1fr;}}
+.skill-card{border-radius:var(--radius-l);padding:34px;}
+.skill-card-head{display:flex;align-items:center;gap:14px;margin-bottom:22px;}
+.skill-card-head .sk-icon{width:48px;height:48px;border-radius:13px;background:var(--moss);color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.skill-card-head .sk-icon svg{width:23px;height:23px;}
+.skill-card-head h3{font-size:1.12rem;color:var(--ink);}
+.tag-row{display:flex;flex-wrap:wrap;gap:9px;}
+.tag-row span{font-size:.79rem;font-weight:500;padding:8px 14px;border-radius:100px;background:var(--bg-alt);color:var(--ink-soft);border:1px solid var(--line);transition:all .3s var(--ease);}
+.tag-row span:hover{background:var(--moss);color:#fff;border-color:var(--moss);transform:translateY(-2px);}
+
+/* ============================================================
+   10. CERTIFICATIONS
+   ============================================================ */
+.cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+@media (max-width:860px){.cert-grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:560px){.cert-grid{grid-template-columns:1fr;}}
+.cert-card{border-radius:var(--radius-m);padding:26px;display:flex;gap:16px;align-items:flex-start;}
+.cert-icon{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--clay));color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.cert-icon svg{width:22px;height:22px;}
+.cert-card h4{font-size:.96rem;color:var(--ink);margin-bottom:4px;}
+.cert-card span{font-size:.78rem;color:var(--ink-faint);}
+
+/* ============================================================
+   11. WHY WORK WITH ME
+   ============================================================ */
+.why-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;}
+@media (max-width:960px){.why-grid{grid-template-columns:repeat(3,1fr);}}
+@media (max-width:640px){.why-grid{grid-template-columns:repeat(2,1fr);}}
+.why-card{border-radius:var(--radius-m);padding:22px 18px;text-align:center;}
+.why-card svg{width:26px;height:26px;color:var(--moss);margin-bottom:12px;}
+.why-card p{font-size:.85rem;font-weight:600;color:var(--ink);}
+
+/* ============================================================
+   12. SERVICES
+   ============================================================ */
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+@media (max-width:960px){.services-grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:560px){.services-grid{grid-template-columns:1fr;}}
+.service-card{border-radius:var(--radius-l);padding:32px 26px;position:relative;}
+.service-card .srv-icon{width:52px;height:52px;border-radius:14px;background:var(--moss);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:20px;}
+.service-card .srv-icon svg{width:25px;height:25px;}
+.service-card h3{font-size:1.08rem;margin-bottom:10px;color:var(--ink);}
+.service-card p{font-size:.88rem;color:var(--ink-soft);}
+.service-card ul{margin-top:12px;}
+.service-card ul li{font-size:.84rem;color:var(--ink-soft);display:flex;gap:8px;align-items:flex-start;margin-bottom:6px;}
+.service-card ul li svg{width:13px;height:13px;color:var(--moss);margin-top:4px;flex-shrink:0;}
+
+/* ============================================================
+   13. CONTACT
+   ============================================================ */
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;}
+@media (max-width:880px){.contact-grid{grid-template-columns:1fr;gap:36px;}}
+.contact-info-card{border-radius:var(--radius-l);padding:38px;height:fit-content;}
+.contact-info-card h3{font-size:1.3rem;margin-bottom:6px;}
+.contact-info-card .role{color:var(--moss);font-weight:600;font-size:.9rem;margin-bottom:26px;}
+.contact-row{display:flex;gap:14px;align-items:center;margin-bottom:18px;}
+.contact-row .ci-icon{width:42px;height:42px;border-radius:11px;background:var(--bg-alt);color:var(--moss);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.contact-row .ci-icon svg{width:19px;height:19px;}
+.contact-row span{font-size:.92rem;color:var(--ink-soft);word-break:break-word;}
+.contact-info-card .btn{margin-top:24px;width:100%;justify-content:center;}
+.contact-socials{display:flex;gap:10px;margin-top:22px;}
+
+.contact-form{border-radius:var(--radius-l);padding:38px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;}
+@media (max-width:520px){.form-row{grid-template-columns:1fr;}}
+.field{display:flex;flex-direction:column;gap:7px;}
+.field.full{grid-column:1/-1;}
+.field label{font-size:.82rem;font-weight:600;color:var(--ink-soft);}
+.field input, .field textarea{
+  padding:13px 16px;border-radius:11px;border:1.5px solid var(--line);background:var(--bg);
+  color:var(--ink);font-family:inherit;font-size:.94rem;transition:border-color .3s, box-shadow .3s;
+}
+.field input:focus, .field textarea:focus{border-color:var(--moss);box-shadow:0 0 0 4px color-mix(in srgb, var(--moss) 15%, transparent);}
+.field textarea{resize:vertical;min-height:120px;}
+.field .err{font-size:.76rem;color:#B3452F;min-height:16px;}
+.form-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:6px;flex-wrap:wrap;}
+.form-success{display:none;align-items:center;gap:12px;padding:16px 20px;border-radius:12px;background:color-mix(in srgb, var(--moss) 14%, transparent);color:var(--moss-dark);font-weight:600;font-size:.9rem;margin-top:18px;}
+[data-theme="dark"] .form-success{color:var(--moss-light);}
+.form-success.show{display:flex;animation:fadeUp .5s var(--ease);}
+.form-success svg{width:22px;height:22px;flex-shrink:0;}
+
+/* ============================================================
+   14. FOOTER
+   ============================================================ */
+footer{background:var(--bg-deep);padding:60px 0 26px;border-top:1px solid var(--line);}
+.footer-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px;padding-bottom:36px;margin-bottom:26px;border-bottom:1px solid var(--line);}
+.footer-brand p{color:var(--ink-soft);font-size:.9rem;margin-top:10px;max-width:320px;}
+.footer-links{display:flex;gap:56px;flex-wrap:wrap;}
+.footer-col h5{font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+.footer-col a{display:block;font-size:.88rem;color:var(--ink-soft);margin-bottom:10px;transition:color .3s;}
+.footer-col a:hover{color:var(--moss);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.8rem;color:var(--ink-faint);}
+.footer-socials{display:flex;gap:10px;}
+
+/* Back to top */
+#back-to-top{
+  position:fixed;bottom:28px;right:28px;width:48px;height:48px;border-radius:50%;
+  background:var(--moss);color:#fff;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px -6px rgba(66,96,58,.6);opacity:0;pointer-events:none;transform:translateY(10px);
+  transition:all .4s var(--ease);z-index:500;
+}
+#back-to-top.show{opacity:1;pointer-events:auto;transform:translateY(0);}
+#back-to-top svg{width:20px;height:20px;}
+#back-to-top:hover{transform:translateY(-4px);}
+
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+</style>
+</head>
+<body>
+
+<div id="scroll-progress"></div>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<header id="site-header">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">PB</span>
+      Pristine Braza
+    </a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Portfolio</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <button class="hamburger icon-btn" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="nav-overlay" id="nav-overlay"></div>
+</header>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<a id="top"></a>
+<section class="hero" id="hero">
+  <div class="topo-bg" aria-hidden="true">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+      <g class="ring">
+        <circle class="line" cx="940" cy="230" r="90"/>
+        <circle class="line" cx="940" cy="230" r="150"/>
+        <circle class="line" cx="940" cy="230" r="210"/>
+        <circle class="line" cx="940" cy="230" r="270"/>
+        <circle class="line" cx="940" cy="230" r="330"/>
+        <circle class="line" cx="940" cy="230" r="390"/>
+      </g>
+      <path d="M-50 620 C 200 560, 320 700, 560 640 S 900 560, 1250 660" />
+      <path d="M-50 680 C 220 630, 340 740, 580 700 S 920 630, 1250 710" />
+      <path d="M-50 740 C 240 700, 360 780, 600 750 S 940 700, 1250 760" />
+    </svg>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="hero-eyebrow"><span class="dot"></span> Open to Freelance &amp; Remote Opportunities</div>
+      <h1>General Virtual Assistant | <span class="accent">Administrative &amp; E-commerce Support</span></h1>
+      <p class="headline">Pristine D. Braza — Administrative Support · Project Coordination · Etsy &amp; TikTok Shop Listings</p>
+      <p class="summary">Organized, detail-driven support for busy founders and teams — administrative work, project coordination, and e-commerce product listing for Etsy and TikTok Shop, backed by 7 years of government service experience.</p>
+      <div class="hero-btns">
+        <a href="mailto:pristineva6@gmail.com?subject=Resume%20Request%20-%20Pristine%20Braza" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+        <a href="#projects" class="btn btn-ghost">
+          View Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="hero-social">
+        <a class="icon-btn" href="https://www.linkedin.com/in/pristinedbraza6/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a class="icon-btn" href="mailto:pristineva6@gmail.com" aria-label="Send email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="photo-wrap">
+        <div class="photo-ring" aria-hidden="true"></div>
+        <div class="photo-frame">
+          <span class="monogram">PB</span>
+          <span class="photo-note">Professional Photo</span>
+        </div>
+      </div>
+      <div class="float-card glass fc-1">
+        <div class="fc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.9 6.9L22 10l-5 5 1.2 7L12 18.5 5.8 22 7 15 2 10l7.1-1.1z"/></svg></div>
+        <div><b>7 Years</b><span>Government Experience</span></div>
+      </div>
+      <div class="float-card glass fc-2">
+        <div class="fc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+        <div><b>Etsy &amp; TikTok</b><span>Shop Virtual Assistant</span></div>
+      </div>
+      <div class="float-card glass fc-3">
+        <div class="fc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></div>
+        <div><b>Gov + Private</b><span>Sector Coordination</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<!-- ============================================================
+     WHY WORK WITH ME
+     ============================================================ -->
+<section id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Why Work With Me</div>
+      <h2>Reliable, organized, and easy to work with.</h2>
+    </div>
+    <div class="why-grid reveal stagger" id="why-grid"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+     ============================================================ -->
+<section id="services" style="background:var(--bg-alt);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Services</div>
+      <h2>How I can support your business.</h2>
+    </div>
+    <div class="services-grid reveal stagger">
+      <div class="service-card glass" style="--i:0">
+        <div class="srv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <h3>Executive Assistance</h3>
+        <p>Administrative support, scheduling, documentation, and coordination that keeps you focused on what matters most.</p>
+      </div>
+      <div class="service-card glass" style="--i:1">
+        <div class="srv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/></svg></div>
+        <h3>Project Coordination</h3>
+        <p>Project management, stakeholder communication, reporting, scheduling, and hands-on implementation support.</p>
+      </div>
+      <div class="service-card glass" style="--i:2">
+        <div class="srv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
+        <h3>E-commerce Virtual Assistant</h3>
+        <p>Full product listing support for growing online shops.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Etsy &amp; TikTok Shop listing</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Shopify product uploads</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>SEO optimization</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Product research &amp; inventory</li>
+        </ul>
+      </div>
+      <div class="service-card glass" style="--i:3">
+        <div class="srv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg></div>
+        <h3>Canva Design Support</h3>
+        <p>Clean, on-brand visuals for your storefront and socials.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Product graphics</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Social media posts</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>T-shirt designs &amp; mockups</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Marketing materials</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <div class="eyebrow">About Me</div>
+        <h2 style="font-size:clamp(1.9rem,3.4vw,2.5rem);margin-bottom:20px;">Organized systems. Reliable execution. Measurable results.</h2>
+        <p>For <b>seven years</b>, I've worked in government service as an <b>Environment Management Specialist</b>, providing executive and administrative support while coordinating environmental and community development projects. My day-to-day spans documentation and report preparation, event management, stakeholder coordination, and business operations — the kind of work that keeps an office, and a project, running smoothly.</p>
+        <p>Outside of government work, I'm also a <b>Virtual Assistant</b> for Etsy and TikTok Shop sellers, where I handle product listing, SEO optimization, product research, and image editing — helping small e-commerce businesses look polished and get found.</p>
+        <p>What ties it all together is that I genuinely enjoy <b>organizing information, streamlining processes, and solving operational problems</b>. I like supporting executives, helping businesses grow, learning new tools, and delivering accurate, high-quality work — every time.</p>
+        <div class="chip-cloud">
+          <span class="chip">Executive Support</span>
+          <span class="chip">Project Coordination</span>
+          <span class="chip">Documentation &amp; Reporting</span>
+          <span class="chip">Event Management</span>
+          <span class="chip">Environmental Management</span>
+          <span class="chip">Community Engagement</span>
+          <span class="chip">Stakeholder Coordination</span>
+          <span class="chip">Business Operations</span>
+          <span class="chip">E-commerce Support</span>
+          <span class="chip">SEO Product Listing</span>
+        </div>
+      </div>
+
+      <div class="about-panel glass reveal">
+        <h3>What I love doing</h3>
+        <ul class="love-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Organizing</b> information into clear systems</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Streamlining</b> processes and workflows</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Improving</b> productivity across teams</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Solving</b> operational problems</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Supporting</b> executives and leaders</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Helping</b> businesses grow</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Learning</b> new tools &amp; technology</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><b>Delivering</b> accurate, high-quality work</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="counters reveal stagger">
+      <div class="counter-card glass" style="--i:0"><div class="num" data-count="7">0</div><div class="lbl">Years of Experience</div></div>
+      <div class="counter-card glass" style="--i:1"><div class="num" data-count="2">0</div><div class="lbl">E-commerce Platforms Supported</div></div>
+      <div class="counter-card glass" style="--i:2"><div class="num" data-count="15">0</div><div class="lbl">Projects &amp; Programs Coordinated</div></div>
+      <div class="counter-card glass" style="--i:3"><div class="num" data-count="6">0</div><div class="lbl">Certifications Earned</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EXPERIENCE
+     ============================================================ -->
+<section id="experience" style="background:var(--bg-alt);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Professional Experience</div>
+      <h2>Where my organizational skills were built.</h2>
+      <p>Seven years of government service in environmental program coordination, plus freelance e-commerce virtual assistance on the side.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/></svg></div>
+        <div class="tl-card glass">
+          <div class="tl-meta">
+            <h3>Environment Management Specialist I</h3>
+            <span class="tl-date">2019 – Present</span>
+          </div>
+          <div class="tl-org">Provincial Government Environment and Natural Resources Office (PG-ENRO)</div>
+          <ul class="tl-tasks">
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Coordinate environmental and community development projects</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Manage multiple stakeholders across sectors</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Prepare accomplishment and technical reports</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Documentation and file management</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Executive administrative support</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Organize meetings and trainings</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Project scheduling and event management</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Proposal preparation</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Monitoring and evaluation</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Community engagement</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Government and private sector coordination</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Process improvement</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 9h20"/><path d="M8 4v5"/></svg></div>
+        <div class="tl-card glass">
+          <div class="tl-meta">
+            <h3>Freelance Virtual Assistant — Etsy &amp; TikTok Shop Product Lister</h3>
+            <span class="tl-date">Freelance Projects</span>
+          </div>
+          <div class="tl-org">Independent / Remote</div>
+          <ul class="tl-tasks">
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Created SEO-optimized product listings</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Uploaded products to Etsy and TikTok Shop</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Wrote keyword-rich product titles &amp; descriptions</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Conducted keyword research using eRank and EverBee</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Edited product images using Canva and PhotoRoom</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Organized product catalogs and variations</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Updated inventory and maintained consistency</li>
+            <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Prepared digital assets &amp; promotional graphics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+     ============================================================ -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Featured Projects</div>
+      <h2>Selected work across e-commerce &amp; environmental coordination.</h2>
+      <p>A mix of hands-on e-commerce store management and multi-stakeholder environmental program coordination.</p>
+    </div>
+
+    <div class="featured-project glass reveal">
+      <div class="fp-visual">
+        <div class="badge-float" style="top:22px;left:22px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Etsy + TikTok Shop
+        </div>
+        <div class="fp-mockup">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        </div>
+        <div class="badge-float" style="bottom:22px;right:22px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3a8 8 0 1 0 8 8"/><path d="M21 3l-9 9"/><path d="M15 3h6v6"/></svg>
+          SEO Optimized
+        </div>
+      </div>
+      <div class="fp-content">
+        <span class="tag">Featured Project</span>
+        <h3>End-to-End E-commerce Product Listing</h3>
+        <p>Managed end-to-end product listings for Etsy and TikTok Shop sellers — from keyword research to publish-ready storefronts.</p>
+        <ul class="fp-tasklist">
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>SEO keyword research</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Optimized titles &amp; descriptions</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Product categorization &amp; variations</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Product image editing &amp; graphics</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Inventory updates</li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>Store organization &amp; listing optimization</li>
+        </ul>
+        <div class="tech-tags">
+          <span>Etsy</span><span>TikTok Shop</span><span>Canva</span><span>PhotoRoom</span><span>eRank</span><span>EverBee</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-head reveal" style="margin-top:70px;">
+      <div class="eyebrow">Design &amp; Marketing Showcase</div>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.1rem);">Product design &amp; marketing snapshots.</h2>
+    </div>
+    <div class="showcase-grid reveal stagger">
+      <div class="showcase-card card" style="padding:0;" data-title="T-Shirt Design Concept" data-desc="Custom apparel graphic designed for a niche Etsy shop, built around a trending seasonal theme." data-role="Designer" data-tools="Canva">
+        <div class="sc-img" style="background:linear-gradient(155deg,var(--moss),var(--moss-dark));">
+          <span class="platform-badge">Etsy</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l3 5-6 3v10H9V11L3 8z"/></svg>
+          <div class="zoom-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+        </div>
+        <div class="sc-body"><div class="role">Design</div><h4>T-Shirt Design Concept</h4><div class="tools">Canva</div></div>
+      </div>
+
+      <div class="showcase-card card" style="padding:0;" data-title="Apparel Mockup" data-desc="Product mockup created to visualize a finished garment for the storefront gallery." data-role="Editor" data-tools="Canva, PhotoRoom">
+        <div class="sc-img" style="background:linear-gradient(155deg,var(--clay),var(--gold));">
+          <span class="platform-badge">Mockup</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+          <div class="zoom-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+        </div>
+        <div class="sc-body"><div class="role">Product Imaging</div><h4>Apparel Mockup</h4><div class="tools">Canva, PhotoRoom</div></div>
+      </div>
+
+      <div class="showcase-card card" style="padding:0;" data-title="TikTok Shop Listing" data-desc="Full product listing prepared for TikTok Shop, including title, description, and imagery." data-role="Product Lister" data-tools="TikTok Shop, eRank">
+        <div class="sc-img" style="background:linear-gradient(155deg,var(--moss-dark),var(--clay));">
+          <span class="platform-badge">TikTok Shop</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          <div class="zoom-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+        </div>
+        <div class="sc-body"><div class="role">Product Listing</div><h4>TikTok Shop Listing</h4><div class="tools">TikTok Shop, eRank</div></div>
+      </div>
+
+      <div class="showcase-card card" style="padding:0;" data-title="Promotional Social Post" data-desc="Promotional graphic created to support a seasonal product launch across social channels." data-role="Graphic Designer" data-tools="Canva">
+        <div class="sc-img" style="background:linear-gradient(155deg,var(--gold),var(--moss));">
+          <span class="platform-badge">Social</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          <div class="zoom-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+        </div>
+        <div class="sc-body"><div class="role">Marketing</div><h4>Promotional Social Post</h4><div class="tools">Canva</div></div>
+      </div>
+    </div>
+
+    <div class="section-head reveal" style="margin-top:70px;">
+      <div class="eyebrow">Environmental Program Coordination</div>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.1rem);">Multi-stakeholder environmental projects.</h2>
+    </div>
+    <div class="mini-projects reveal stagger">
+      <div class="mini-card card">
+        <div class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4.5 8-11.8A8 8 0 0 0 4 10.2C4 17.5 12 22 12 22z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <h4>1Bataan Bambusetum &amp; Eco-Park</h4>
+        <p>Project coordination for a multi-stakeholder bamboo conservation and eco-tourism initiative involving government agencies, universities, people's organizations, and private sector partners.</p>
+      </div>
+      <div class="mini-card card">
+        <div class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 22v-6M4.2 10.8c1.6-3.4 4.6-5.4 7.8-5.4s6.2 2 7.8 5.4"/><path d="M4.2 13.2c1.6 3.4 4.6 5.4 7.8 5.4s6.2-2 7.8-5.4"/></svg></div>
+        <h4>Tree Planting Program</h4>
+        <p>Managed logistics, volunteer engagement, documentation, monitoring, reporting, scheduling, and stakeholder coordination for large-scale tree planting activities.</p>
+      </div>
+      <div class="mini-card card">
+        <div class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 3-4 6-4 9a4 4 0 0 0 8 0c0-3-1-6-4-9z"/><path d="M12 12v9"/></svg></div>
+        <h4>Community PanTREE</h4>
+        <p>Coordinated community seedling distribution programs promoting environmental awareness, sustainability, and urban greening.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PORTFOLIO GALLERY
+     ============================================================ -->
+<section id="gallery" style="background:var(--bg-alt);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Portfolio Gallery</div>
+      <h2>Browse by category.</h2>
+      <p>A closer look at listings, graphics, and environmental program documentation.</p>
+    </div>
+
+    <div class="filter-bar reveal" id="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="administrative">Administrative</button>
+      <button class="filter-btn" data-filter="executive">Executive Support</button>
+      <button class="filter-btn" data-filter="listing">Product Listing</button>
+      <button class="filter-btn" data-filter="design">Graphic Design</button>
+      <button class="filter-btn" data-filter="environmental">Environmental Projects</button>
+    </div>
+
+    <div class="masonry reveal" id="masonry"></div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="lightbox-inner">
+    <div class="lightbox-visual" id="lightbox-visual"></div>
+    <div class="lightbox-body">
+      <h4 id="lightbox-title"></h4>
+      <p id="lightbox-desc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SKILLS
+     ============================================================ -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Skills</div>
+      <h2>A toolkit built for admin, projects, and e-commerce.</h2>
+    </div>
+
+    <div class="skills-grid reveal stagger">
+      <div class="skill-card glass" style="--i:0">
+        <div class="skill-card-head">
+          <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <h3>Executive &amp; Administrative Support</h3>
+        </div>
+        <div class="tag-row">
+          <span>Executive Assistance</span><span>Calendar Management</span><span>Email Management</span><span>Travel Coordination</span><span>Meeting Coordination</span><span>Scheduling</span><span>Documentation</span><span>Report Writing</span><span>Data Entry</span><span>File Management</span><span>Document Control</span><span>Office Administration</span><span>Project Coordination</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass" style="--i:1">
+        <div class="skill-card-head">
+          <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/></svg></div>
+          <h3>Project Management</h3>
+        </div>
+        <div class="tag-row">
+          <span>Stakeholder Coordination</span><span>Community Engagement</span><span>Event Planning</span><span>Environmental Programs</span><span>Monitoring &amp; Evaluation</span><span>Proposal Writing</span><span>Project Documentation</span><span>Process Improvement</span><span>Workflow Management</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass" style="--i:2">
+        <div class="skill-card-head">
+          <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
+          <h3>Virtual Assistant &amp; E-commerce</h3>
+        </div>
+        <div class="tag-row">
+          <span>Product Listing</span><span>Etsy Store Management</span><span>TikTok Shop Management</span><span>Shopify Product Uploads</span><span>SEO Product Listing</span><span>Product Research</span><span>Keyword Research</span><span>eRank</span><span>EverBee</span><span>Canva</span><span>PhotoRoom</span><span>Product Image Editing</span><span>Product Variations</span><span>Inventory Updates</span><span>Store Organization</span><span>Digital Asset Management</span><span>Customer Support</span><span>Internet Research</span><span>Data Entry</span><span>Google Sheets</span><span>Microsoft Excel</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass" style="--i:3">
+        <div class="skill-card-head">
+          <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/></svg></div>
+          <h3>Productivity Tools</h3>
+        </div>
+        <div class="tag-row">
+          <span>Microsoft Office</span><span>Excel</span><span>Word</span><span>PowerPoint</span><span>Google Workspace</span><span>Google Drive</span><span>Google Docs</span><span>Google Sheets</span><span>Trello</span><span>ClickUp</span><span>Notion</span><span>Airtable</span><span>Canva</span><span>PhotoRoom</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CERTIFICATIONS
+     ============================================================ -->
+<section id="certifications" style="background:var(--bg-alt);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Certifications</div>
+      <h2>Continued learning, always.</h2>
+    </div>
+    <div class="cert-grid reveal stagger">
+      <div class="cert-card glass" style="--i:0"><div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg></div><div><h4>Product Listing Certification</h4><span>E-commerce &amp; SEO</span></div></div>
+      <div class="cert-card glass" style="--i:1"><div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-4"/></svg></div><div><h4>Microsoft Excel for Data Analysis</h4><span>Data &amp; Reporting</span></div></div>
+      <div class="cert-card glass" style="--i:2"><div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4.5 8-11.8A8 8 0 0 0 4 10.2C4 17.5 12 22 12 22z"/><circle cx="12" cy="10" r="3"/></svg></div><div><h4>Environmental Management Training</h4><span>Sustainability &amp; Programs</span></div></div>
+      <div class="cert-card glass" style="--i:3"><div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div><h4>Virtual Assistant Training</h4><span>Remote Support Operations</span></div></div>
+      <div class="cert-card glass" style="--i:4"><div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg></div><div><h4>Data Analytics Training</h4><span>Analysis &amp; Insights</span></div></div>
+      <div class="cert-card glass" style="--i:5"><div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 9h20"/></svg></div><div><h4>Google Workspace Training</h4><span>Docs, Sheets &amp; Drive</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Contact</div>
+      <h2>Let's work together.</h2>
+      <p>Available for freelance and remote executive support, project coordination, and e-commerce virtual assistant roles.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info-card glass reveal">
+        <h3>Pristine D. Braza</h3>
+        <div class="role">General Virtual Assistant | Administrative &amp; E-commerce Support</div>
+        <div class="contact-row">
+          <div class="ci-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <span>Bataan, Philippines</span>
+        </div>
+        <div class="contact-row">
+          <div class="ci-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+          <span>pristineva6@gmail.com</span>
+        </div>
+        <div class="contact-row">
+          <div class="ci-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+          <span>linkedin.com/in/pristinedbraza6</span>
+        </div>
+        <a href="mailto:pristineva6@gmail.com?subject=Resume%20Request%20-%20Pristine%20Braza" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+        <div class="contact-socials">
+          <a class="icon-btn" href="https://www.linkedin.com/in/pristinedbraza6/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a class="icon-btn" href="mailto:pristineva6@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></a>
+        </div>
+      </div>
+
+      <form class="contact-form glass reveal" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="f-name">Full name</label>
+            <input type="text" id="f-name" name="name" placeholder="Your name" />
+            <span class="err" id="err-name"></span>
+          </div>
+          <div class="field">
+            <label for="f-email">Email address</label>
+            <input type="email" id="f-email" name="email" placeholder="you@company.com" />
+            <span class="err" id="err-email"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field full">
+            <label for="f-subject">Subject</label>
+            <input type="text" id="f-subject" name="subject" placeholder="What's this about?" />
+            <span class="err" id="err-subject"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field full">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" placeholder="Tell me a bit about the role or project..."></textarea>
+            <span class="err" id="err-message"></span>
+          </div>
+        </div>
+        <div class="form-foot">
+          <button type="submit" class="btn btn-primary">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <span style="font-size:.8rem;color:var(--ink-faint);">I typically respond within 24 hours.</span>
+        </div>
+        <div class="form-success" id="form-success">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Message ready — your email app should now be open to send it. Thank you for reaching out!
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="logo"><span class="logo-mark">PB</span>Pristine Braza</a>
+        <p>General Virtual Assistant supporting businesses with organized, reliable administrative and e-commerce operations.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#gallery">Portfolio</a>
+        </div>
+        <div class="footer-col">
+          <h5>More</h5>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="mailto:pristineva6@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/pristinedbraza6/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Pristine D. Braza. All rights reserved.</span>
+      <div class="footer-socials">
+        <a class="icon-btn" href="https://www.linkedin.com/in/pristinedbraza6/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a class="icon-btn" href="mailto:pristineva6@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<script>
+/* ============================================================
+   THEME TOGGLE
+   ============================================================ */
+(function(){
+  const root = document.documentElement;
+  const stored = null; // no localStorage per environment constraints; default to light + respect OS preference
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if(prefersDark){ root.setAttribute('data-theme','dark'); }
+  document.getElementById('theme-toggle').addEventListener('click', function(){
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  });
+})();
+
+/* ============================================================
+   NAV: scroll state, mobile menu
+   ============================================================ */
+(function(){
+  const header = document.getElementById('site-header');
+  const links = document.getElementById('nav-links');
+  const overlay = document.getElementById('nav-overlay');
+  const hamburger = document.getElementById('hamburger');
+  const progress = document.getElementById('scroll-progress');
+  const backTop = document.getElementById('back-to-top');
+
+  function onScroll(){
+    const y = window.scrollY || window.pageYOffset;
+    header.classList.toggle('scrolled', y > 40);
+    backTop.classList.toggle('show', y > 500);
+    const h = document.documentElement;
+    const total = h.scrollHeight - h.clientHeight;
+    progress.style.width = total > 0 ? (y/total*100)+'%' : '0%';
+  }
+  document.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  function closeMenu(){
+    links.classList.remove('open');
+    overlay.classList.remove('open');
+    hamburger.setAttribute('aria-expanded','false');
+  }
+  hamburger.addEventListener('click', function(){
+    const open = links.classList.toggle('open');
+    overlay.classList.toggle('open', open);
+    hamburger.setAttribute('aria-expanded', open ? 'true':'false');
+  });
+  overlay.addEventListener('click', closeMenu);
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+
+  backTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+
+/* ============================================================
+   REVEAL ON SCROLL
+   ============================================================ */
+(function(){
+  const items = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, {threshold:.15, rootMargin:'0px 0px -60px 0px'});
+  items.forEach(i=>io.observe(i));
+})();
+
+/* ============================================================
+   ANIMATED COUNTERS
+   ============================================================ */
+(function(){
+  const counters = document.querySelectorAll('.counter-card .num');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        const el = e.target;
+        const target = parseInt(el.dataset.count,10);
+        let cur = 0;
+        const step = Math.max(1, Math.round(target/40));
+        const timer = setInterval(()=>{
+          cur += step;
+          if(cur >= target){ cur = target; clearInterval(timer); }
+          el.textContent = cur + (target >= 7 && target <= 20 && el.dataset.count==='15' ? '+' : (el.dataset.count==='7' || el.dataset.count==='2' || el.dataset.count==='6' ? '' : ''));
+          el.textContent = cur;
+        }, 35);
+        io.unobserve(el);
+      }
+    });
+  }, {threshold:.5});
+  counters.forEach(c=>io.observe(c));
+})();
+
+/* ============================================================
+   WHY WORK WITH ME — data driven cards
+   ============================================================ */
+(function(){
+  const data = [
+    ['7 Years Professional Experience','award'],
+    ['Executive Administrative Expertise','briefcase'],
+    ['Strong Project Coordination','target'],
+    ['Government & Private Sector Collaboration','handshake'],
+    ['Excellent Documentation','file'],
+    ['Detail-Oriented','search'],
+    ['Reliable','shield'],
+    ['Organized','grid'],
+    ['Fast Learner','zap'],
+    ['Adaptable','refresh'],
+    ['Strong Communication','message'],
+    ['Data-Driven Decision Making','chart'],
+    ['E-commerce Experience','cart'],
+    ['SEO Knowledge','trend'],
+    ['Creative Problem Solver','bulb'],
+  ];
+  const icons = {
+    award:'<circle cx="12" cy="8" r="6"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/>',
+    briefcase:'<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
+    target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+    handshake:'<path d="M11 17l-4-4 3-3 4 4"/><path d="M2 10l5-5 4 4-5 5z"/><path d="M22 10l-5-5-4 4 5 5z"/><path d="M13 14l4 4"/>',
+    file:'<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>',
+    search:'<circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>',
+    shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    grid:'<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>',
+    zap:'<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
+    refresh:'<polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>',
+    message:'<path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l2-4a8.5 8.5 0 1 1 15-4.5z"/>',
+    chart:'<path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/>',
+    cart:'<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>',
+    trend:'<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>',
+    bulb:'<path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/>',
+  };
+  const grid = document.getElementById('why-grid');
+  grid.innerHTML = data.map(([label,icon],i)=>`
+    <div class="why-card glass" style="--i:${i%6}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${icons[icon]}</svg>
+      <p>${label}</p>
+    </div>`).join('');
+})();
+
+/* ============================================================
+   GALLERY DATA + FILTER + MASONRY RENDER + LIGHTBOX
+   ============================================================ */
+(function(){
+  const items = [
+    {title:'Etsy Product Listing', cat:'listing', badge:'Etsy', role:'Product Lister', desc:'SEO-optimized Etsy listing including title, tags, and description written to improve discoverability.', h:1, grad:'linear-gradient(155deg,var(--moss),var(--moss-dark))', icon:'shop'},
+    {title:'TikTok Shop Listing', cat:'listing', badge:'TikTok Shop', role:'Product Lister', desc:'Product uploaded and optimized for TikTok Shop with keyword-rich copy.', h:1.3, grad:'linear-gradient(155deg,var(--clay),var(--gold))', icon:'tag'},
+    {title:'T-Shirt Design', cat:'design', badge:'Design', role:'Designer', desc:'Original apparel graphic concept designed in Canva for a seasonal collection.', h:1.1, grad:'linear-gradient(155deg,var(--moss-dark),var(--clay))', icon:'shirt'},
+    {title:'Canva Promotional Graphic', cat:'design', badge:'Marketing', role:'Graphic Designer', desc:'Promotional graphic built to support a product launch across social channels.', h:1.4, grad:'linear-gradient(155deg,var(--gold),var(--moss))', icon:'image'},
+    {title:'Product Photography Edit', cat:'design', badge:'Editing', role:'Photo Editor', desc:'Background removal and cleanup using PhotoRoom to prepare a listing-ready product photo.', h:1, grad:'linear-gradient(155deg,var(--fern),var(--moss-dark))', icon:'camera'},
+    {title:'Store Catalog Organization', cat:'listing', badge:'Etsy', role:'Store Manager', desc:'Reorganized product categories and variations for a cleaner storefront experience.', h:1.2, grad:'linear-gradient(155deg,var(--moss),var(--gold))', icon:'grid'},
+    {title:'Meeting & Report Documentation', cat:'administrative', badge:'Admin', role:'Administrative Support', desc:'Structured meeting minutes and technical report templates for recurring program reviews.', h:1.3, grad:'linear-gradient(155deg,var(--clay-soft),var(--clay))', icon:'file'},
+    {title:'Executive Calendar & Travel Coordination', cat:'executive', badge:'Executive', role:'Executive Assistant', desc:'Coordinated scheduling and travel logistics to keep leadership calendars conflict-free.', h:1, grad:'linear-gradient(155deg,var(--moss-dark),var(--moss))', icon:'calendar'},
+    {title:'Tree Planting Program Documentation', cat:'environmental', badge:'Environmental', role:'Project Coordinator', desc:'Field documentation and reporting for a large-scale community tree planting activity.', h:1.4, grad:'linear-gradient(155deg,var(--fern),var(--clay))', icon:'tree'},
+    {title:'Community PanTREE Seedling Drive', cat:'environmental', badge:'Environmental', role:'Community Liaison', desc:'Coordinated seedling distribution logistics with barangay and community partners.', h:1.1, grad:'linear-gradient(155deg,var(--moss),var(--fern))', icon:'leaf'},
+    {title:'Promotional Social Post Set', cat:'design', badge:'Social', role:'Graphic Designer', desc:'A set of on-brand social graphics designed to promote new product drops.', h:1.2, grad:'linear-gradient(155deg,var(--gold),var(--clay))', icon:'image'},
+    {title:'Stakeholder Meeting Coordination', cat:'executive', badge:'Executive', role:'Coordinator', desc:'End-to-end coordination of a multi-agency stakeholder meeting, from invites to minutes.', h:1, grad:'linear-gradient(155deg,var(--moss),var(--moss-dark))', icon:'handshake'},
+  ];
+  const icons = {
+    shop:'<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>',
+    tag:'<path d="M20.59 13.41L11 3.83A2 2 0 0 0 9.57 3H4a1 1 0 0 0-1 1v5.57a2 2 0 0 0 .59 1.42l9.58 9.58a2 2 0 0 0 2.82 0l4.6-4.6a2 2 0 0 0 0-2.83z"/><circle cx="8" cy="8" r="1.4"/>',
+    shirt:'<path d="M6 3h12l3 5-6 3v10H9V11L3 8z"/>',
+    image:'<rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/>',
+    camera:'<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/>',
+    grid:'<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>',
+    file:'<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>',
+    calendar:'<rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>',
+    tree:'<path d="M12 22v-7"/><path d="M9 9a3 3 0 1 1 6 0c0 2-3 3-3 5-0-2-3-3-3-5z"/><path d="M7 14a4 4 0 1 1 10 0c0 2.5-3.5 3.5-5 5-1.5-1.5-5-2.5-5-5z"/>',
+    leaf:'<path d="M12 3c-3 3-4 6-4 9a4 4 0 0 0 8 0c0-3-1-6-4-9z"/><path d="M12 12v9"/>',
+    handshake:'<path d="M11 17l-4-4 3-3 4 4"/><path d="M2 10l5-5 4 4-5 5z"/><path d="M22 10l-5-5-4 4 5 5z"/><path d="M13 14l4 4"/>',
+  };
+  const catLabel = {listing:'Product Listing',design:'Graphic Design',administrative:'Administrative',executive:'Executive Support',environmental:'Environmental'};
+  const masonry = document.getElementById('masonry');
+
+  masonry.innerHTML = items.map((it,i)=>`
+    <div class="g-item card" data-cat="${it.cat}" data-title="${it.title}" data-desc="${it.desc}" data-grad="${it.grad}" data-icon="${it.icon}" style="padding:0;">
+      <div class="g-inner" style="background:${it.grad}; min-height:${Math.round(150*it.h)}px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icons[it.icon]}</svg>
+        <div>
+          <h5>${it.title}</h5>
+          <div class="g-cat">${it.badge} · ${catLabel[it.cat]}</div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  // Filters
+  const buttons = document.querySelectorAll('.filter-btn');
+  buttons.forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      buttons.forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.g-item').forEach(g=>{
+        g.classList.toggle('hidden', !(f==='all' || g.dataset.cat===f));
+      });
+    });
+  });
+
+  // Lightbox for masonry + showcase cards
+  const lightbox = document.getElementById('lightbox');
+  const lbVisual = document.getElementById('lightbox-visual');
+  const lbTitle = document.getElementById('lightbox-title');
+  const lbDesc = document.getElementById('lightbox-desc');
+
+  function openLightbox(title, desc, grad, iconKey){
+    lbTitle.textContent = title;
+    lbDesc.textContent = desc;
+    lbVisual.style.background = grad || 'linear-gradient(155deg,var(--moss),var(--moss-dark))';
+    lbVisual.innerHTML = iconKey && icons[iconKey] ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">${icons[iconKey]}</svg>` : '';
+    lightbox.classList.add('open');
+    document.body.style.overflow='hidden';
+  }
+  function closeLightbox(){
+    lightbox.classList.remove('open');
+    document.body.style.overflow='';
+  }
+  document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', e=>{ if(e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeLightbox(); });
+
+  masonry.addEventListener('click', e=>{
+    const item = e.target.closest('.g-item');
+    if(!item) return;
+    openLightbox(item.dataset.title, item.dataset.desc, item.dataset.grad, item.dataset.icon);
+  });
+
+  document.querySelectorAll('.showcase-card').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      const bg = card.querySelector('.sc-img').style.background;
+      openLightbox(card.dataset.title, card.dataset.desc, bg, null);
+      lbVisual.innerHTML = card.querySelector('.sc-img svg').outerHTML;
+    });
+  });
+})();
+
+/* ============================================================
+   CONTACT FORM VALIDATION
+   ============================================================ */
+(function(){
+  const form = document.getElementById('contact-form');
+  const success = document.getElementById('form-success');
+  const fields = {
+    name: {el: document.getElementById('f-name'), err: document.getElementById('err-name')},
+    email: {el: document.getElementById('f-email'), err: document.getElementById('err-email')},
+    subject: {el: document.getElementById('f-subject'), err: document.getElementById('err-subject')},
+    message: {el: document.getElementById('f-message'), err: document.getElementById('err-message')},
+  };
+  function validEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    let valid = true;
+    Object.values(fields).forEach(f=>f.err.textContent='');
+
+    if(!fields.name.el.value.trim()){ fields.name.err.textContent='Please enter your name.'; valid=false; }
+    if(!fields.email.el.value.trim()){ fields.email.err.textContent='Please enter your email.'; valid=false; }
+    else if(!validEmail(fields.email.el.value.trim())){ fields.email.err.textContent='Please enter a valid email.'; valid=false; }
+    if(!fields.subject.el.value.trim()){ fields.subject.err.textContent='Please add a subject.'; valid=false; }
+    if(!fields.message.el.value.trim() || fields.message.el.value.trim().length < 10){ fields.message.err.textContent='Message should be at least 10 characters.'; valid=false; }
+
+    if(!valid) return;
+
+    const body = encodeURIComponent(
+      `Name: ${fields.name.el.value}\nEmail: ${fields.email.el.value}\n\n${fields.message.el.value}`
+    );
+    const mailto = `mailto:pristineva6@gmail.com?subject=${encodeURIComponent(fields.subject.el.value)}&body=${body}`;
+    window.location.href = mailto;
+
+    success.classList.add('show');
+    form.reset();
+    setTimeout(()=>success.classList.remove('show'), 6000);
+  });
+})();
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
